@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { DataType } from "@/global/types";
 import axios from "axios";
 const api = axios.create({
-  baseURL: "http://116.202.172.229:8443/api/v1/",
+  baseURL: "https://play.cryptoshowdown.io/api/v1/",
 });
 
 export const storage = {
